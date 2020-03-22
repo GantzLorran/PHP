@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>Aula #08 - HTML5 + PHP</title>
+	<style>
+		body{
+			background:#a6a6a6;
+		}
+	</style>
+</head>
+<body>
+	<form method="get" action="exercicio01.php">
+		Ano de nascimento: 
+		<input type="number" name="num"/><br>
+		<FIELDSET><legend>Operação</legend>
+			<input type="radio" name="oper" id="dobro" value="1" checked>
+			<label for="dobro">Dobro:</label>
+			<input type="radio" name="oper" id="dobro" value="2" checked>
+			<label for="cubo">Cubo:</label>
+			<input type="radio" name="oper" id="dobro" value="3" checked>
+			<label for="raiz">Raiz Quadrada:</label> 
+		</FIELDSET>
+
+		<input type="submit" class="botao" value="Calcular"/>
+	</form>
+</body>
+</html>

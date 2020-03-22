@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>Aula #08 - HTML5 + PHP</title>
+	<style>
+		body{
+			background:#a6a6a6;
+		}
+	</style>
+</head>
+<body>
+	<form method="get" action="02valor.php">
+		Nome: <input type="text" name="nome"><br>
+		Ano de Nascimento: <input type="number" name="ano">
+		<fieldset><legend>Sexo</legend>
+			<input type="radio" name="sexo" id="masc" value="homem" checked />
+			<label for="masc"> Masculino </label><br>
+			<input type="radio" name="sexo" id="fem" value="mulher" />
+			<label for="fem">Feminino</label><br>
+		</fieldset>
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
